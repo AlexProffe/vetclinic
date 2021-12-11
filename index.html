@@ -46,11 +46,11 @@
         </div>
         <div class="container">
             <nav class="header-menu menu">
-                <a href="#" class="menu-item active">Главная</a>
-                <a href="#" class="menu-item">Услуги</a>
+                <a href="index.html" class="menu-item active">Главная</a>
+                <a href="pages/services.html" class="menu-item">Услуги</a>
                 <a href="#" class="menu-item">О нас</a>
                 <a href="#" class="menu-item">Контакты</a>
-                <button href="#" class="menu-item burger">
+                <button href="#" class="menu-item burger" id="open-burger">
                     <i class="fa fa-bars"></i>
                 </button>
             </nav>
@@ -72,83 +72,83 @@
             </button>
         </div>
     </section>
-    <section id="services">
+    <section id="categories">
         <div class="container">
-            <h2 class="section-title services-title">
+            <h2 class="section-title categories-title title-with-icon">
                 Наши услуги
             </h2>
-            <h3 class="section-subtitle services-subtitle">
+            <h3 class="section-subtitle categories-subtitle">
                 Все виды услуг
             </h3>
-            <div class="services__wrapper services">
-                <article class="service">
-                    <div class="service-img">
-                        <img src="images/service-1.png" alt="Service Icon">
+            <div class="categories__wrapper categories">
+                <article class="category">
+                    <div class="category-img">
+                        <img src="images/service-1.png" alt="Category Icon">
                     </div>
-                    <h3 class="service-title">
+                    <h3 class="category-title">
                         Хирургия
                     </h3>
-                    <p class="service-desc">
+                    <p class="category-desc">
                         Bresaola tail short loin kevin corned
                         beef turducken pork chop short ribs
                     </p>
                 </article>
-                <article class="service">
-                    <div class="service-img">
-                        <img src="images/service-2.png" alt="Service Icon">
+                <article class="category">
+                    <div class="category-img">
+                        <img src="images/service-2.png" alt="Category Icon">
                     </div>
-                    <h3 class="service-title">
+                    <h3 class="category-title">
                         Терапия
                     </h3>
-                    <p class="service-desc">
+                    <p class="category-desc">
                         Bresaola tail short loin kevin corned
                         beef turducken pork chop short ribs
                     </p>
                 </article>
-                <article class="service">
-                    <div class="service-img">
-                        <img src="images/service-3.png" alt="Service Icon">
+                <article class="category">
+                    <div class="category-img">
+                        <img src="images/service-3.png" alt="Category Icon">
                     </div>
-                    <h3 class="service-title">
+                    <h3 class="category-title">
                         Акушерство
                     </h3>
-                    <p class="service-desc">
+                    <p class="category-desc">
                         Bresaola tail short loin kevin corned
                         beef turducken pork chop short ribs
                     </p>
                 </article>
-                <article class="service">
-                    <div class="service-img">
-                        <img src="images/service-1.png" alt="Service Icon">
+                <article class="category">
+                    <div class="category-img">
+                        <img src="images/service-1.png" alt="Category Icon">
                     </div>
-                    <h3 class="service-title">
+                    <h3 class="category-title">
                         Офтальмология
                     </h3>
-                    <p class="service-desc">
+                    <p class="category-desc">
                         Bresaola tail short loin kevin corned
                         beef turducken pork chop short ribs
                     </p>
                 </article>
-                <article class="service">
-                    <div class="service-img">
-                        <img src="images/service-2.png" alt="Service Icon">
+                <article class="category">
+                    <div class="category-img">
+                        <img src="images/service-2.png" alt="Category Icon">
                     </div>
-                    <h3 class="service-title">
+                    <h3 class="category-title">
                         Ортопедия
                     </h3>
-                    <p class="service-desc">
+                    <p class="category-desc">
                         Bresaola tail short loin kevin corned
                         beef turducken pork chop short ribs
                     </p>
                 </article>
-                <article class="service">
-                    <div class="service-img">
-                        <img src="images/service-3.png" alt="Service Icon">
+                <article class="category">
+                    <div class="category-img">
+                        <img src="images/service-3.png" alt="Category Icon">
                     </div>
-                    <h3 class="service-title">
+                    <h3 class="category-title">
                         Прочие
                     </h3>
-                    <p class="service-desc">
+                    <p class="category-desc">
                         Bresaola tail short loin kevin corned
                         beef turducken pork chop short ribs
                     </p>
@@ -159,7 +159,7 @@
 
     <section id="team">
         <div class="container">
-            <h2 class="section-title team-title">
+            <h2 class="section-title team-title title-with-icon">
                 Наша команда
             </h2>
             <h3 class="section-subtitle team-subtitle">
@@ -209,7 +209,7 @@
     <section id="map">
 
         <div class="container">
-            <h2 class="section-title">
+            <h2 class="section-title map-title title-with-icon">
                 Мы на карте
             </h2>
             <h3 class="section-subtitle">
@@ -267,6 +267,38 @@
             </article>
         </div>
     </footer>
+
+    <div id="burger" class="hidden">
+        <div class="burger-content">
+            <nav class="burger-menu burger">
+                <a href="index.html" class="burger-item">Главная</a>
+                <a href="pages/services.html" class="burger-item">Услуги</a>
+                <a href="#" class="burger-item">О нас</a>
+                <a href="#" class="burger-item">Контакты</a>
+            </nav>
+            <div class="burger-info header-info">
+                <article class="info-item">
+                    <p class="info-item-desc">
+                        Наш телефон
+                    </p>
+                    <a class="info-item-title" href="tel:+375251234567">+375 25 123 45 67</a>
+                </article>
+                <article class="info-item">
+                    <p class="info-item-desc">
+                        Наше местоположение:
+                    </p>
+                    <h2 class="info-item-title">
+                        г. Гомель, ул. Необычная, д.22
+                    </h2>
+                </article>
+            </div>
+        </div>
+        <button class="burger-close" id="burger-close">
+            <i class="fa fa-times"></i>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
