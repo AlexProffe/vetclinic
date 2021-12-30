@@ -44,10 +44,10 @@
         </div>
         <div class="container">
             <nav class="header-menu menu">
-                <a href="../index.html" class="menu-item active">Главная</a>
-                <a href="services.html" class="menu-item">Услуги</a>
+                <a href="../index.html" class="menu-item">Главная</a>
+                <a href="services.html" class="menu-item active">Услуги</a>
                 <a href="#" class="menu-item">О нас</a>
-                <a href="#" class="menu-item">Контакты</a>
+                <a href="contacts.html" class="menu-item">Контакты</a>
                 <button href="#" class="menu-item burger" id="open-burger">
                     <i class="fa fa-bars"></i>
                 </button>
@@ -70,103 +70,117 @@
             <h2 class="section-title services-title title-with-icon">
                 Прейскурант
             </h2>
-            <div class="services-table services table">
-                <div class="table-row">
-                    <div class="table-item">
-                        Услуги
-                    </div>
-                    <div class="table-item table-item--price">
-                        Цена
-                    </div>
+            <div class="services-tabs services">
+                <div class="services-tabs-controls">
+                    <button class="tab-control active" value="consult">Приём и консультация</button>
+                    <button class="tab-control" value="diagnostic">УЗИ-диагностика</button>
                 </div>
-                <div class="table-row table-head">
-                    <div class="table-item">
-                        Приём и консультация
+                <div class="services-tabs-content">
+                    <div class="service-tab active" data-tab-name="consult">
+                        <div class="services-table services table">
+                            <div class="table-row table-head">
+                                <div class="table-item">
+                                    Приём и консультация
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Услуги
+                                </div>
+                                <div class="table-item table-item--price">
+                                    Цена
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Первичный приём
+                                </div>
+                                <div class="table-item table-item--price">
+                                    20.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Повторный приём
+                                </div>
+                                <div class="table-item table-item--price">
+                                    17.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Первичный приём узкого специалиста
+                                </div>
+                                <div class="table-item table-item--price">
+                                    25.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Повторный приём узкого специалиста
+                                </div>
+                                <div class="table-item table-item--price">
+                                    20.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Повторный прием кардиолога с УЗИ сердца
+                                </div>
+                                <div class="table-item table-item--price">
+                                    30.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Консультация по результатам анализов
+                                </div>
+                                <div class="table-item table-item--price">
+                                    17.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Ежегодная диспансеризация в день вакцинации (полный клинический осмотр животного, исследования крови (биохимия и общий), консультация по содержанию, питанию и уходу)
+                                </div>
+                                <div class="table-item table-item--price">
+                                    43.60
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Первичный приём
-                    </div>
-                    <div class="table-item table-item--price">
-                        20.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Повторный приём
-                    </div>
-                    <div class="table-item table-item--price">
-                        17.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Первичный приём узкого специалиста
-                    </div>
-                    <div class="table-item table-item--price">
-                        25.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Повторный приём узкого специалиста
-                    </div>
-                    <div class="table-item table-item--price">
-                        20.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Повторный прием кардиолога с УЗИ сердца
-                    </div>
-                    <div class="table-item table-item--price">
-                        30.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Консультация по результатам анализов
-                    </div>
-                    <div class="table-item table-item--price">
-                        17.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Ежегодная диспансеризация в день вакцинации (полный клинический осмотр животного, исследования крови (биохимия и общий), консультация по содержанию, питанию и уходу)
-                    </div>
-                    <div class="table-item table-item--price">
-                        43.60
-                    </div>
-                </div>
-                <div class="table-row table-head">
-                    <div class="table-item">
-                        УЗИ-диагностика (Ультразвуковая диагностика животных)
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        УЗИ беременности
-                    </div>
-                    <div class="table-item table-item--price">
-                        16.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        УЗИ органов брюшной полости
-                    </div>
-                    <div class="table-item table-item--price">
-                        23.00
-                    </div>
-                </div>
-                <div class="table-row">
-                    <div class="table-item">
-                        Ультразвуковое исследование сердца
-                    </div>
-                    <div class="table-item table-item--price">
-                        35.00
+                    <div class="service-tab" data-tab-name="diagnostic">
+                        <div class="services-table services table">
+                            <div class="table-row table-head">
+                                <div class="table-item">
+                                    УЗИ-диагностика (Ультразвуковая диагностика животных)
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    УЗИ беременности
+                                </div>
+                                <div class="table-item table-item--price">
+                                    16.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    УЗИ органов брюшной полости
+                                </div>
+                                <div class="table-item table-item--price">
+                                    23.00
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-item">
+                                    Ультразвуковое исследование сердца
+                                </div>
+                                <div class="table-item table-item--price">
+                                    35.00
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
