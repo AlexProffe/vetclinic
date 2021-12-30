@@ -917,9 +917,18 @@ body {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+#services .services .tab-control:hover {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 @media screen and (max-width: 960.01px) {
   #services .services .tab-control {
     max-width: 200px;
+    border-top-right-radius: initial;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  #services .services .tab-control:hover {
     border-top-right-radius: initial;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
