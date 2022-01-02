@@ -134,7 +134,7 @@ body {
         flex-direction: column;
 
         @media screen and (max-width: 850px) {
-            max-width: 360px;
+            max-width: 400px;
             width: 100%;
             align-items: flex-start;
         }
@@ -458,6 +458,8 @@ body {
 
     &-logo {
       margin-bottom: 30px;
+      background-color: white;
+      padding: 20px;
     }
 
     &-title {
